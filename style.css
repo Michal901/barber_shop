@@ -575,7 +575,6 @@ font-family: 'Sometype Mono', monospace; */
 
 .contact {
   height: 630px;
-  background-color: #0b080838;
   display: flex;
 }
 .form-container {
@@ -585,6 +584,7 @@ font-family: 'Sometype Mono', monospace; */
 }
 .form-btn {
   width: 160px;
+  margin-top: 56px;
 }
 .input {
   width: 280px;
@@ -672,5 +672,34 @@ font-family: 'Sometype Mono', monospace; */
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 215px;
   height: 120px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+}
+.copyright {
+  color: #303030;
+}
+.footer-sidebar * {
+  color: #303030;
+}
+.footer-sidebar {
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+.footer-sidebar::after {
+  position: absolute;
+  content: "";
+  left: -100px;
+  bottom: 15px;
+  width: 60px;
+  height: 1px;
+  background-color: var(--font-color-2);
+  display: block;
 }
