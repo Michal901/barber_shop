@@ -583,6 +583,36 @@ font-family: 'Sometype Mono', monospace; */
   padding: 120px 30px 190px 215px;
   background-color: black;
 }
+.form-btn {
+  width: 160px;
+}
+.input {
+  width: 280px;
+  border: none;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.239);
+  background-color: transparent;
+}
+.input:hover {
+  border-bottom: 1px solid rgb(177, 177, 177);
+}
+.input:focus {
+  border-bottom: 1px solid rgb(177, 177, 177);
+}
+.textarea {
+  width: 570px;
+  border: none;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.239);
+  background-color: transparent;
+}
+.title-6,
+.title-7 {
+  font-size: 42px;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 2.1px;
+}
 .address-container {
   width: 785px;
   background-image: url(./img/contacts/bg-img.png);
@@ -590,7 +620,57 @@ font-family: 'Sometype Mono', monospace; */
   background-position: center center;
   background-size: cover;
   background-color: black;
+  padding: 120px 0 120px 100px;
 }
+.contacts-svg-cont {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  margin-bottom: 20px;
+}
+.contacts-svg-cont:last-child {
+  margin-bottom: 72px;
+}
+.title-7 {
+  padding-bottom: 44px;
+}
+.outpost {
+  font-weight: 800;
+}
+.contacts-tel {
+}
+.contacts-mail {
+}
+.sub-title-7 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  padding-left: 80px;
+}
+.sub-title-7::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 7px;
+  width: 60px;
+  height: 1px;
+  background-color: var(--font-color-2);
+  display: block;
+}
+.hours {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+}
+
 .footer {
   height: 120px;
 }
