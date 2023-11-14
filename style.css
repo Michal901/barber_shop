@@ -468,6 +468,8 @@ font-family: 'Sometype Mono', monospace; */
 }
 .team {
   height: 870px;
+  background-color: rgba(247, 247, 247, 1);
+  padding: 120px 0;
 }
 .sub-title-5 {
   font-size: 12px;
@@ -495,7 +497,47 @@ font-family: 'Sometype Mono', monospace; */
 }
 .employees {
   display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.employee img {
+  margin: 44px 0 30px;
+}
+.employee-name {
+  color: #090b13;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.employee-description {
+  color: #ff6c00;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.28px;
 }
 .social-svg-container {
   display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.social-svg-bg:hover .social-svg {
+  fill: #ff6c00;
+  cursor: pointer;
+}
+.social-svg-bg:focus .social-svg {
+  fill: #ff6c00;
+}
+.social-svg-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
 }
