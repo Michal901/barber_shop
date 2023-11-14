@@ -121,13 +121,18 @@ font-family: 'Sometype Mono', monospace; */
   padding-bottom: 10px;
   color: var(--font-color);
 }
-.sidebar {
+.sidebar-container {
   display: flex;
   flex-direction: column;
-  color: #111;
   justify-content: center;
   gap: 94px;
-  margin-top: 288px;
+  margin-top: 295px;
+}
+.sidebar {
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sidebar a {
@@ -142,9 +147,8 @@ font-family: 'Sometype Mono', monospace; */
 }
 .sidebar-logo {
   width: 80px;
-  position: absolute;
-  top: 0;
-  left: 8vw;
+  height: 80px;
+  margin-top: 22px;
 }
 .line {
   height: 1px;
@@ -702,4 +706,8 @@ font-family: 'Sometype Mono', monospace; */
   height: 1px;
   background-color: var(--font-color-2);
   display: block;
+}
+.footer-sidebar a:hover,
+.footer-sidebar a:focus {
+  color: #ff6c00;
 }
